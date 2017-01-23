@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    font-family: "Inconsolata", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* General */
+span.cm-header         { color: #ABB2BF; }
+span.cm-variable       { color: #ABB2BF; }
+span.cm-link           { color: #98C379; }
+span.cm-string-2       { color: #98C379; }
+span.cm-meta           { color: #ABB2BF; }
+span.cm-variable-3     { color: #64B6C3; }
+span.cm-comment        { color: #667689; }
+span.cm-error          { color: #FF0000; }
+
+/* CSS, LESS */
+.cm-m-css.cm-tag       { color: #D86C74; }
+.cm-m-css.cm-property  { color: #ABB2BF; }
+.cm-m-css.cm-number    { color: #D19A66; }
+.cm-m-css.cm-atom      { color: #64B6C3; }
+.cm-m-css.cm-string    { color: #98C379; }
+.cm-m-css.cm-builtin   { color: #6CAFF2; }
+.cm-m-css.cm-qualifier { color: #CD9A61; }
+
+/* HTML, XML */
+.cm-m-xml.cm-tag.cm-bracket { color: #ABB2BF; }
+.cm-m-xml.cm-tag            { color: #D86C74; }
+.cm-m-xml.cm-attribute      { color: #D19A66; }
+.cm-m-xml.cm-string         { color: #98C379; }
+
+/* Javascript */
+.cm-m-javascript.cm-keyword { color: #D86C74; }
+.cm-m-javascript.cm-def { color: #6CAFF2; }
+.cm-m-javascript.cm-operator { color: #ABB2BF; }
+.cm-m-javascript.cm-string { color: #98C379; }
+.cm-m-javascript.cm-number { color: #D19A66; }
+.cm-m-javascript.cm-variable-2 { color: #C678DD; }
+.cm-m-javascript.cm-property { color: #ABB2BF; }
+.cm-m-javascript.cm-atom { color: #64B6C3; }
+
+/* PHP */
+.cm-m-clike.cm-keyword { color: #C678DD; }
+.cm-m-clike.cm-def { color: #D19A66; }
+.cm-m-clike.cm-variable-2 { color: #D86C74; }
+.cm-m-clike.cm-operator { color: #ABB2BF; }
+.cm-m-clike.cm-string { color: #98C379; }
+.cm-m-clike.cm-atom { color: #64B6C3; }
+.cm-m-clike.cm-number { color: #D19A66; }
+.cm-m-clike.cm-builtin { color: #6CAFF2; }
+    
+/* Editor */
+.CodeMirror {
+    line-height: 1.25;
+}
+
+.CodeMirror-scroll {
+	background: #282C34;
+	color: #ABB2BF;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #528BFF !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #528BFF !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #282C34;
+	border-right: 1px solid #282C34;
+}
+
+.CodeMirror-foldmarker {
+    border: 1px solid #464C59;
+    background-color: #282C34;
+}
+
+.CodeMirror-linenumber {
+	color: #4B5363;
+}
+
+.CodeMirror-selected {
+	background: #3E4451 !important;
+}
+
+/* Matching */
+.CodeMirror-matchingbracket {
+    background: #38404C !important;
+	border-bottom: 1px solid #548DFE !important;
+    color: #ABB2BF !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #38404C !important;
+}
+
+/* Active Line */
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff0076 !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #2C323B !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #ABB2BF;
+    background-color: #2C313A;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #ABB2BF;
+}
+
+/* Non-editor styling */
+#image-holder,
+#not-editor {
+    background-color: #282C34;
+}
+
+#image-holder {
+    color: #282C34;
+}
