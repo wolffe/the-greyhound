@@ -57,7 +57,7 @@ span.cm-error          { color: #FF0000; }
 }
 
 .CodeMirror-scroll {
-	background: #282C34;
+	background-color: #21252B;
 	color: #ABB2BF;
 }
 
@@ -71,8 +71,8 @@ span.cm-error          { color: #FF0000; }
 }
 
 .CodeMirror-gutters {
-	background: #282C34;
-	border-right: 1px solid #282C34;
+    background-color: #21252B;
+    border-right: none;
 }
 
 .CodeMirror-foldmarker {
