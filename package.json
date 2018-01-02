@@ -2,7 +2,7 @@
     "title": "The Greyhound",
     "name": "the-greyhound",
     "description": "A dark theme, created for speed coding, sporting a modern user interface.",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "wolffe (https://github.com/wolffe)",
     "homepage": "https://github.com/wolffe/the-greyhound",
     "repository": {
@@ -11,11 +11,19 @@
     },
     "license": "GPLv3",
     "engines": {
-        "brackets": ">=1.8.0"
+        "brackets": ">=1.9.0"
     },
     "theme": {
         "file": "main.css",
         "dark": true,
         "addModeClass": true
-    }
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "css",
+        "html",
+        "javascript",
+        "php"
+    ]
 }
