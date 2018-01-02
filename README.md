@@ -11,6 +11,11 @@ A dark theme, created for speed coding, sporting a modern user interface.
 
 ## Changelog
 
+= 1.1.2 =
+
+* UPDATE: Added keywords
+* UPDATE: Updated compatibility with latest version of Adobe Brackets
+
 = 1.1.1 =
 
 * UPDATE: Added changelog
